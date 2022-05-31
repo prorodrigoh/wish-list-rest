@@ -1,6 +1,6 @@
 import { getDb } from "../gateway/mongo";
 
-interface Wish {
+export interface Wish {
   name: string;
   type: string;
   isPossible: boolean;
